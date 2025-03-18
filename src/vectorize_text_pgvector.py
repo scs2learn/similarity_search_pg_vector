@@ -93,7 +93,7 @@ def insert_data_to_pgvector(text_as_documents, document_text_embeddings):
     conn_info = {
         'dbname': 'postgres',
         'user': 'postgres',
-        'password': 'suraj7177',
+        'password': 'password',
         'host': 'localhost',
         'port': '5432'
     }
